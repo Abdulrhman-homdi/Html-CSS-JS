@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JOBS JAVAJAM</title>
+    <link rel="stylesheet" type="text/css" href="javajam.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="11.jpg" alt="JavaJam Logo" height="120" width="200">
+            <img src="2.jpg" alt="JavaJam Coffee House" height="117" width="750">
+        </h1>
+    </header>
+    <p></p>
+            	<!-- Top bar -->
+    <NAV>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="music.html">Music</a>
+        <a href="Jobs.html">Jobs</a>    
+    </NAV>
+        <h1>Jobs at JavaJAM</h1>
+    <p>Want to work at javajam? Fill out the form below to start your application. Required fields are marked with an asterisk (*)</p>
+    <form action="https://webdevbasics.net/scripts/javajam.php" method="post">
+	    		<!-- Personal Information Section -->
+	    <fieldset>
+	        <legend>Personal Information</legend>
+	        <label for="firstName">*First Name:</label>
+	        <input type="text" id="firstName" name="firstName" required>
+
+	        <label for="lastName">*Last Name:</label>
+	        <input type="text" id="lastName" name="lastName" required>
+
+	        <label for="email">*Email:</label>
+	        <input type="Email" id="email" name="email" required>
+	    </fieldset>
+
+	    		<!-- Skills Information Section -->
+	    <fieldset>
+	        <legend>Your Skills</legend>
+	        <label>
+	            <input type="checkbox" name="skill1"> Customer Service and Communications <br>
+	        </label>
+
+	        <label>
+	            <input type="checkbox" name="skill2"> Food Preparation and Sanitation <br>
+	        </label>
+
+	        <label>
+	            <input type="checkbox" name="skill3"> Smoothie-Making Techniques <br>
+	        </label>
+
+	        <label>
+	            <input type="checkbox" name="skill4"> Sales <br>
+	        </label>
+	    </fieldset>
+
+	    		<!-- Job Location Section -->
+	    <fieldset>
+	        <legend>Job Location</legend>
+	        <label for="jobLocation">Select a city:</label>
+	        <select id="jobLocation" name="jobLocation">
+	            <option value="city1">Makkah</option>
+	            <option value="city2">Ryadh</option>
+	            <option value="city3">Taif</option>
+	            <option value="city4">Jizan</option>
+	            <!-- Add more options as needed -->
+	        </select>
+	    </fieldset><br>
+
+	            <!-- Experience Section -->
+	    <label class="experience-label">*Experience:</label><br>
+	    <textarea name="experience" required></textarea>
+	    <br>
+	            <!-- Apply Now Button -->
+	    <input type="submit" value="Apply Now">
+
+	</form>
+
+    <p></p>
+            	<!-- The Address and Emali -->
+  <address>
+    12312 Main Street<br>
+    Mountain Home , CA93923<br>
+    1-888-555-5555<br>
+  </address>
+    <p></p>
+            	<!-- Copyright information -->
+    <footer class="footerMark">Copyright &copy; 2023 JavaJam Coffee House</footer>
+    <a href="mailto:JavaJam@JavaJam.com">JavaJam@JavaJam.com</a>
+</body>
+</html>
+<!--
+Team Members:
+	1st Abdurhman Mousa Homdi 444002561
+	2nd Mejdy Mohammed Alkediwi 44403571
+	3rd Saad Muhammad Hussein Al-Jarda 44411976 
+Tasks:
+	1st Student task(s): Personal Information , Job Location , Requirement field
+	2nd Student task(s): Your Skills , Apply button and Action 
+	3rd Student task(s): Experience 
+-->
